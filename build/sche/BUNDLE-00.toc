@@ -1,0 +1,1 @@
+([('sche', '/Users/yiugetan/PycharmProjects/sche/dist/sche', 'EXECUTABLE')],)
