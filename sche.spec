@@ -23,7 +23,7 @@ exe = EXE(pyz,
           a.zipfiles,
           a.datas,
           [],
-          name='The Wall Sche',
+          name='sche',
           debug=False,
           bootloader_ignore_signals=False,
           strip=False,
@@ -32,10 +32,10 @@ exe = EXE(pyz,
           runtime_tmpdir=None,
           console=False )
 app = BUNDLE(exe,
-             name='The Wall Sche.app',
-             icon='none',
+             name='sche.app',
+             icon=None,
              bundle_identifier=None,
-             info_plist={
-
-            'NSHighResolutionCapable': 'True'
-            })
+		         info_plist={
+       	 	      'NSHighResolutionCapable': 'True'
+        	   }
+)
